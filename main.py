@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import random
 import sqlite3
+import os
 
 TOKEN = os.getenv("TOKEN")
 WIN_CHANCE = 0.45
